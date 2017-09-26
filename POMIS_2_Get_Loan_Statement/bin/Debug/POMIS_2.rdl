@@ -170,40 +170,40 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>0.91059in</Width>
+                  <Width>0.92361in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.44184in</Width>
+                  <Width>0.45486in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.47309in</Width>
+                  <Width>0.48611in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.63976in</Width>
+                  <Width>0.65278in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.48351in</Width>
+                  <Width>0.49653in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.63976in</Width>
+                  <Width>0.65278in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.76476in</Width>
+                  <Width>0.74653in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.65017in</Width>
+                  <Width>0.69444in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.61892in</Width>
+                  <Width>0.63194in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.68142in</Width>
+                  <Width>0.69444in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.61892in</Width>
+                  <Width>0.63194in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.60851in</Width>
+                  <Width>0.49653in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -987,6 +987,9 @@
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1013,7 +1016,15 @@
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
                                     <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
+                                    <FontWeight>Normal</FontWeight>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value> Loan</Value>
+                                  <Style>
+                                    <FontFamily>Arial Narrow</FontFamily>
+                                    <FontSize>9pt</FontSize>
+                                    <FontWeight>Normal</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1507,6 +1518,9 @@
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1529,24 +1543,16 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Total for</Value>
+                                  <Value>Total</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
                                     <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
-                                </TextRun>
-                                <TextRun>
-                                  <Value>=Fields!ProductName.Value</Value>
-                                  <Style>
-                                    <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
+                                    <FontWeight>Normal</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Right</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1964,6 +1970,9 @@
                             <BottomBorder>
                               <Style>Solid</Style>
                             </BottomBorder>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1986,19 +1995,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Total for </Value>
+                                  <Value>Main Item Total</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
                                     <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
-                                </TextRun>
-                                <TextRun>
-                                  <Value>=Fields!mainItemName.Value</Value>
-                                  <Style>
-                                    <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
+                                    <FontWeight>Normal</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -2355,6 +2356,9 @@
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <RightBorder>
+                              <Style>None</Style>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2427,9 +2431,10 @@
                 </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
+            <RepeatColumnHeaders>true</RepeatColumnHeaders>
             <DataSetName>DataSet1</DataSetName>
-            <Height>1.51042in</Height>
-            <Width>7.53125in</Width>
+            <Height>1.51044in</Height>
+            <Width>7.5625in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -2445,13 +2450,114 @@
           </Border>
         </Style>
       </Body>
-      <Width>7.53125in</Width>
+      <Width>7.5625in</Width>
       <Page>
+        <PageHeader>
+          <Height>0.80431in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox2">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Parameters!Header1.Value</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontSize>12pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Office Code: </Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value>=Fields!BranchCode.Value</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value> Office Name: </Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value>=Fields!BranchName.Value</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Loan Statement</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox2</rd:DefaultName>
+              <Top>0.12375in</Top>
+              <Height>0.61806in</Height>
+              <Width>7.40625in</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <PageFooter>
+          <Height>1in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
         <PageHeight>11.69in</PageHeight>
         <PageWidth>8.27in</PageWidth>
         <LeftMargin>0.5in</LeftMargin>
         <RightMargin>0.2in</RightMargin>
-        <TopMargin>0.5in</TopMargin>
+        <TopMargin>0.25in</TopMargin>
         <BottomMargin>0.3in</BottomMargin>
         <Style />
       </Page>
@@ -2485,6 +2591,15 @@
       </DefaultValue>
       <Prompt>Process Date</Prompt>
     </ReportParameter>
+    <ReportParameter Name="Header1">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>ABC</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Header1</Prompt>
+    </ReportParameter>
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
@@ -2505,6 +2620,11 @@
           <ColumnIndex>2</ColumnIndex>
           <RowIndex>0</RowIndex>
           <ParameterName>ProcessDate</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>Header1</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>

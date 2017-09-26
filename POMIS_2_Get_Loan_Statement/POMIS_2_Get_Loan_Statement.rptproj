@@ -8,6 +8,10 @@
       <Name>POMIS_2.rdl</Name>
       <FullPath>POMIS_2.rdl</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Pomis_SR.rdl</Name>
+      <FullPath>Pomis_SR.rdl</FullPath>
+    </ProjectItem>
   </Reports>
   <Configurations>
     <Configuration>
