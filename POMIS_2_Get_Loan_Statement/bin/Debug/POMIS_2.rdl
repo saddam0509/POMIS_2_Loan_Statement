@@ -1188,9 +1188,6 @@
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
-                            <RightBorder>
-                              <Style>None</Style>
-                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2579,7 +2576,6 @@
             <DataSetName>DataSet1</DataSetName>
             <Height>1.65627in</Height>
             <Width>7.39583in</Width>
-            <ToolTip>=IIf(Fields!ReportType.Value=2,true,0)</ToolTip>
             <Style>
               <Border>
                 <Style>None</Style>
