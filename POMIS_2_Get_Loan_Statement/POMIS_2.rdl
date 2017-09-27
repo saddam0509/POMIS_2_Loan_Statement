@@ -200,15 +200,15 @@
                   <Width>0.69444in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.63194in</Width>
+                  <Width>0.46527in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.49653in</Width>
+                  <Width>0.49654in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.25174in</Height>
+                  <Height>0.21007in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -219,10 +219,38 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Product Name</Value>
+                                  <Value />
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Product </Value>
+                                  <Style>
+                                    <FontFamily>Arial Narrow</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Name</Value>
+                                  <Style>
+                                    <FontFamily>Arial Narrow</FontFamily>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -232,20 +260,16 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox44</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
-                            <TopBorder>
-                              <Style>None</Style>
-                            </TopBorder>
                             <BottomBorder>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <RightBorder>
                               <Style>None</Style>
-                            </RightBorder>
+                            </BottomBorder>
+                            <VerticalAlign>Bottom</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -263,10 +287,24 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Arial Narrow</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
                                   <Value>Gender</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -276,20 +314,16 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox1</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
-                            <TopBorder>
-                              <Style>None</Style>
-                            </TopBorder>
                             <BottomBorder>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <RightBorder>
                               <Style>None</Style>
-                            </RightBorder>
+                            </BottomBorder>
+                            <VerticalAlign>Bottom</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -310,7 +344,7 @@
                                   <Value>End of the Last Month</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -320,20 +354,22 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox3</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
                             <TopBorder>
-                              <Style>None</Style>
-                            </TopBorder>
-                            <BottomBorder>
                               <Style>Solid</Style>
-                            </BottomBorder>
+                            </TopBorder>
+                            <LeftBorder>
+                              <Style>Solid</Style>
+                            </LeftBorder>
                             <RightBorder>
-                              <Style>None</Style>
+                              <Style>Solid</Style>
                             </RightBorder>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -353,10 +389,24 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Disbursment in this Month</Value>
+                                  <Value>Disbursment in </Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>This Month</Value>
+                                  <Style>
+                                    <FontFamily>Arial Narrow</FontFamily>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -366,20 +416,22 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox10</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
                             <TopBorder>
-                              <Style>None</Style>
-                            </TopBorder>
-                            <BottomBorder>
                               <Style>Solid</Style>
-                            </BottomBorder>
+                            </TopBorder>
+                            <LeftBorder>
+                              <Style>Solid</Style>
+                            </LeftBorder>
                             <RightBorder>
-                              <Style>None</Style>
+                              <Style>Solid</Style>
                             </RightBorder>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -399,10 +451,24 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Arial Narrow</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
                                   <Value>This Month Recovery Amount</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -412,20 +478,16 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox29</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
-                            <TopBorder>
-                              <Style>None</Style>
-                            </TopBorder>
                             <BottomBorder>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <RightBorder>
                               <Style>None</Style>
-                            </RightBorder>
+                            </BottomBorder>
+                            <VerticalAlign>Bottom</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -443,10 +505,24 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Arial Narrow</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
                                   <Value>Fully Repayment in this Month</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -456,20 +532,16 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox31</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
-                            <TopBorder>
-                              <Style>None</Style>
-                            </TopBorder>
                             <BottomBorder>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <RightBorder>
                               <Style>None</Style>
-                            </RightBorder>
+                            </BottomBorder>
+                            <VerticalAlign>Bottom</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -490,7 +562,7 @@
                                   <Value>End of Month</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -500,20 +572,22 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox35</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
                             <TopBorder>
-                              <Style>None</Style>
-                            </TopBorder>
-                            <BottomBorder>
                               <Style>Solid</Style>
-                            </BottomBorder>
+                            </TopBorder>
+                            <LeftBorder>
+                              <Style>Solid</Style>
+                            </LeftBorder>
                             <RightBorder>
-                              <Style>None</Style>
+                              <Style>Solid</Style>
                             </RightBorder>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -536,7 +610,7 @@
                                   <Value>Cumulative</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -546,20 +620,22 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox41</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
                             <TopBorder>
-                              <Style>None</Style>
-                            </TopBorder>
-                            <BottomBorder>
                               <Style>Solid</Style>
-                            </BottomBorder>
+                            </TopBorder>
+                            <LeftBorder>
+                              <Style>Solid</Style>
+                            </LeftBorder>
                             <RightBorder>
-                              <Style>None</Style>
+                              <Style>Solid</Style>
                             </RightBorder>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -573,11 +649,11 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25174in</Height>
+                  <Height>0.18924in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Textbox385">
+                        <Textbox Name="Textbox43">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -587,7 +663,7 @@
                                   <Value />
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -596,12 +672,16 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Textbox385</rd:DefaultName>
+                          <rd:DefaultName>Textbox43</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <TopBorder>
+                              <Style>None</Style>
+                            </TopBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -622,7 +702,7 @@
                                   <Value />
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -632,11 +712,24 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox7</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <TopBorder>
+                              <Style>None</Style>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -657,7 +750,7 @@
                                   <Value>Loanee</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -667,11 +760,13 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox8</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -692,7 +787,7 @@
                                   <Value>Outstanding </Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -702,11 +797,13 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox9</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -727,7 +824,7 @@
                                   <Value>Loanee</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -737,11 +834,13 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox11</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -762,7 +861,7 @@
                                   <Value>Amount</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -772,11 +871,13 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox14</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -797,7 +898,7 @@
                                   <Value />
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -807,11 +908,24 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox28</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <TopBorder>
+                              <Style>None</Style>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -832,7 +946,7 @@
                                   <Value />
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -842,11 +956,24 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox32</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <TopBorder>
+                              <Style>None</Style>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>Black</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>Black</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>Black</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -867,7 +994,7 @@
                                   <Value>Loanee</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -877,11 +1004,13 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox36</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -902,7 +1031,7 @@
                                   <Value>Outstanding</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -912,11 +1041,13 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox39</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -934,10 +1065,24 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>No of Loanee</Value>
+                                  <Value>No of </Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Loanee</Value>
+                                  <Style>
+                                    <FontFamily>Arial Narrow</FontFamily>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -947,11 +1092,13 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox42</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -972,7 +1119,7 @@
                                   <Value>No of Loan</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -982,14 +1129,16 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox45</rd:DefaultName>
+                          <RepeatWith>Tablix1</RepeatWith>
                           <Style>
                             <Border>
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
-                            <RightBorder>
+                            <TopBorder>
                               <Style>None</Style>
-                            </RightBorder>
+                            </TopBorder>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1015,16 +1164,16 @@
                                   <Value>=Fields!mainItemName.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Normal</FontWeight>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
                                   <Value> Loan</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Normal</FontWeight>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1048,48 +1197,10 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <ColSpan>12</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox159">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style>
-                                    <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style>
-                                <TextAlign>Left</TextAlign>
-                              </Style>
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox159</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>None</Style>
-                              <Width>0.5pt</Width>
-                            </Border>
-                            <LeftBorder>
-                              <Style>None</Style>
-                            </LeftBorder>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                        <ColSpan>11</ColSpan>
-                      </CellContents>
-                    </TablixCell>
+                    <TablixCell />
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
@@ -1118,7 +1229,7 @@
                                   <Value>=Fields!ProductName.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1155,7 +1266,7 @@
                                   <Value>=Fields!Gender.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1189,7 +1300,7 @@
                                   <Value>=Fields!LastMonthOutstandingLoanee.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1224,7 +1335,7 @@
                                   <Value>=Fields!LastMonthOutstandingAmount.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1259,7 +1370,7 @@
                                   <Value>=Fields!EndOfMonthOutstandingLoanee.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1294,7 +1405,7 @@
                                   <Value>=Fields!EndOFMonthOutstandingAmount.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1329,7 +1440,7 @@
                                   <Value>=Fields!ThisMonthRecoveryAmount.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1364,7 +1475,7 @@
                                   <Value>=Fields!ThisMonthFullyRepaymentLoanee.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1399,7 +1510,7 @@
                                   <Value>=Fields!EndOfMonthOutstandingLoanee.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1434,7 +1545,7 @@
                                   <Value>=Fields!EndOFMonthOutstandingAmount.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1469,7 +1580,7 @@
                                   <Value>=Fields!UptoLoanee.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1504,7 +1615,7 @@
                                   <Value>=Fields!UptpLoan.Value</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1518,9 +1629,6 @@
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
-                            <RightBorder>
-                              <Style>None</Style>
-                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1546,13 +1654,13 @@
                                   <Value>Total</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -1590,7 +1698,7 @@
                                   <Value>=Sum(Fields!LastMonthOutstandingLoanee.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1630,7 +1738,7 @@
                                   <Value>=Sum(Fields!LastMonthOutstandingAmount.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1670,7 +1778,7 @@
                                   <Value>=Sum(Fields!EndOfMonthOutstandingLoanee.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1710,7 +1818,7 @@
                                   <Value>=Sum(Fields!EndOFMonthOutstandingAmount.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1750,7 +1858,7 @@
                                   <Value>=Sum(Fields!ThisMonthRecoveryAmount.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1790,7 +1898,7 @@
                                   <Value>=Sum(Fields!ThisMonthFullyRepaymentLoanee.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1830,7 +1938,7 @@
                                   <Value>=Sum(Fields!EndOfMonthOutstandingLoanee.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1870,7 +1978,7 @@
                                   <Value>=Sum(Fields!EndOFMonthOutstandingAmount.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1910,7 +2018,7 @@
                                   <Value>=Sum(Fields!UptoLoanee.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1950,7 +2058,7 @@
                                   <Value>=Sum(Fields!UptpLoan.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -1968,11 +2076,8 @@
                               <Style>None</Style>
                             </TopBorder>
                             <BottomBorder>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <RightBorder>
                               <Style>None</Style>
-                            </RightBorder>
+                            </BottomBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1998,7 +2103,7 @@
                                   <Value>Main Item Total</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <FontWeight>Normal</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -2036,7 +2141,7 @@
                                   <Value>=Sum(Fields!LastMonthOutstandingLoanee.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -2070,7 +2175,7 @@
                                   <Value>=Sum(Fields!LastMonthOutstandingAmount.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -2104,7 +2209,7 @@
                                   <Value>=Sum(Fields!EndOfMonthOutstandingLoanee.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -2138,7 +2243,7 @@
                                   <Value>=Sum(Fields!EndOFMonthOutstandingAmount.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -2172,7 +2277,7 @@
                                   <Value>=Sum(Fields!ThisMonthRecoveryAmount.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -2206,7 +2311,7 @@
                                   <Value>=Sum(Fields!ThisMonthFullyRepaymentLoanee.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -2240,7 +2345,7 @@
                                   <Value>=Sum(Fields!EndOfMonthOutstandingLoanee.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -2274,7 +2379,7 @@
                                   <Value>=Sum(Fields!EndOFMonthOutstandingAmount.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -2308,7 +2413,7 @@
                                   <Value>=Sum(Fields!UptoLoanee.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -2342,7 +2447,7 @@
                                   <Value>=Sum(Fields!UptpLoan.Value)</Value>
                                   <Style>
                                     <FontFamily>Arial Narrow</FontFamily>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
@@ -2356,9 +2461,9 @@
                               <Style>Solid</Style>
                               <Width>0.5pt</Width>
                             </Border>
-                            <RightBorder>
+                            <TopBorder>
                               <Style>None</Style>
-                            </RightBorder>
+                            </TopBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -2367,6 +2472,35 @@
                         </Textbox>
                       </CellContents>
                     </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Subreport Name="Subreport2">
+                          <ReportName>Pomis_SR</ReportName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                          </Style>
+                        </Subreport>
+                        <ColSpan>12</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
+                    <TablixCell />
                   </TablixCells>
                 </TablixRow>
               </TablixRows>
@@ -2389,8 +2523,14 @@
             </TablixColumnHierarchy>
             <TablixRowHierarchy>
               <TablixMembers>
-                <TablixMember />
-                <TablixMember />
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                  <RepeatOnNewPage>true</RepeatOnNewPage>
+                </TablixMember>
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                  <RepeatOnNewPage>true</RepeatOnNewPage>
+                </TablixMember>
                 <TablixMember>
                   <Group Name="MainProductCode">
                     <GroupExpressions>
@@ -2429,12 +2569,16 @@
                     </TablixMember>
                   </TablixMembers>
                 </TablixMember>
+                <TablixMember>
+                  <KeepWithGroup>Before</KeepWithGroup>
+                </TablixMember>
               </TablixMembers>
             </TablixRowHierarchy>
             <RepeatColumnHeaders>true</RepeatColumnHeaders>
+            <RepeatRowHeaders>true</RepeatRowHeaders>
             <DataSetName>DataSet1</DataSetName>
-            <Height>1.51044in</Height>
-            <Width>7.5625in</Width>
+            <Height>1.65627in</Height>
+            <Width>7.39583in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -2443,17 +2587,17 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>4.89584in</Height>
+        <Height>4.68751in</Height>
         <Style>
           <Border>
-            <Style>Solid</Style>
+            <Style>None</Style>
           </Border>
         </Style>
       </Body>
-      <Width>7.5625in</Width>
+      <Width>7.60292in</Width>
       <Page>
         <PageHeader>
-          <Height>0.80431in</Height>
+          <Height>0.82514in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -2523,9 +2667,77 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox2</rd:DefaultName>
-              <Top>0.12375in</Top>
+              <Top>0.11681in</Top>
+              <Left>0.04042in</Left>
               <Height>0.61806in</Height>
-              <Width>7.40625in</Width>
+              <Width>7.5625in</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox4">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>POMIS-2</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox4</rd:DefaultName>
+              <Top>0.35987in</Top>
+              <Left>6.72792in</Left>
+              <Height>0.25in</Height>
+              <Width>0.625in</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox5">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Parameters!UptoDate.Value</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox4</rd:DefaultName>
+              <Top>0.5057in</Top>
+              <Left>0.11396in</Left>
+              <Height>0.22917in</Height>
+              <Width>1.39521in</Width>
+              <ZIndex>2</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2547,6 +2759,188 @@
           <Height>1in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox46">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Prepared BY</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox46</rd:DefaultName>
+              <Top>0.20485in</Top>
+              <Left>0.50917in</Left>
+              <Height>0.25in</Height>
+              <Width>1in</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox47">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Checked BY</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox46</rd:DefaultName>
+              <Top>0.20485in</Top>
+              <Left>3.30146in</Left>
+              <Height>0.25in</Height>
+              <Width>1in</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox48">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>ApprovedBY</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox46</rd:DefaultName>
+              <Top>0.20485in</Top>
+              <Left>6in</Left>
+              <Height>0.25in</Height>
+              <Width>1in</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox50">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Print Date: </Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value>=FORMAT(Cdate(today), "dd-MM-yyyy")</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox49</rd:DefaultName>
+              <Top>0.60763in</Top>
+              <Left>0.13479in</Left>
+              <Height>0.25in</Height>
+              <Width>3.40625in</Width>
+              <ZIndex>3</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox51">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Page </Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value>=Globals!PageNumber</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox49</rd:DefaultName>
+              <Top>0.60763in</Top>
+              <Left>5.44918in</Left>
+              <Height>0.25in</Height>
+              <Width>1.98833in</Width>
+              <ZIndex>4</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
           <Style>
             <Border>
               <Style>None</Style>
@@ -2555,7 +2949,7 @@
         </PageFooter>
         <PageHeight>11.69in</PageHeight>
         <PageWidth>8.27in</PageWidth>
-        <LeftMargin>0.5in</LeftMargin>
+        <LeftMargin>0.25in</LeftMargin>
         <RightMargin>0.2in</RightMargin>
         <TopMargin>0.25in</TopMargin>
         <BottomMargin>0.3in</BottomMargin>
@@ -2600,6 +2994,15 @@
       </DefaultValue>
       <Prompt>Header1</Prompt>
     </ReportParameter>
+    <ReportParameter Name="UptoDate">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>March, 2017</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>UptoDate</Prompt>
+    </ReportParameter>
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
@@ -2625,6 +3028,11 @@
           <ColumnIndex>3</ColumnIndex>
           <RowIndex>0</RowIndex>
           <ParameterName>Header1</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>UptoDate</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>
